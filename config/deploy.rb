@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "my_app_name"
-set :repo_url, "git@github.com:FranZisko/Nexuz.git"
+set :application, "Nexuzx"
+set :repo_url, "git@github.com:FranZisko/Nexuzx.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, "/var/www/Nexuz"
+ set :deploy_to, "/home/Nexuzx"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
